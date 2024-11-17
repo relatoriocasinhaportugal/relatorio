@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./componente.css">
+    <link rel="stylesheet" href="./grid-view.css">
+    <title>RELATÓRIO DAS RECEITAS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js" integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+        <div id="completo">
+            <div class="trafaria">
+            <h1>RELATÓRIO DAS RECEITAS</h1>
+        </div>
+        <form action="#">
+            <div class="row">
+                <div class="col-6 col-s-12" >
+                  <fieldset>
+                      <legend>
+                          Coordenador(a) da comunhão de casinha
+                      </legend>
+                      <div class="row">
+                        <!--Colocar col 4 para dividir em tres colunas já que 100% é 12-->
+                        <div class="col-8">
+                           <label for="txtNome" class="rotulo">Nome completo:</label> 
+                           <input type="text" id="txtnome" name="firstname" placeholder="Informe o seu nome..." maxlength="50" required autofocus class="caixa-texto">
+                        </div>
+                         <div class="col-4">
+                            <label for="txtfone" class="rotulo">Telemóvel:</label> 
+                            <input type="tel" id="txtfone" name="fone" placeholder="Informe o seu número..." maxlength="15" required  class="caixa-texto">
+                         </div>
+                      </div>
+                  </fieldset>
+                </div>
+                <!--segunda parte-->
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <legend>Casinha de:</legend>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="txtfone" class="rotulo">Nome da Casinha:</label> 
+                                    <input type="text" id="txtdata" name="data" required  class="caixa-texto">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <legend>Data</legend>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="txthora" class="rotulo">Data:</label> 
+                                    <input type="date" id="txthora" name="data"   class="caixa-texto">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+              </div>
+              <hr>
+        </form>
+               <form action="">
+                <div class="row">
+                    <div class="col-6 col-s-12" >
+                        <fieldset>
+                            <legend>Nome:</legend>
+                            <div class="row">
+                                <!--Colocar col 4 para dividir em tres colunas já que 100% é 12-->
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                         <label for="txtNome" class="rotulo"></label> 
+                                   <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50" class="caixa-texto">
+                                </div>
+                                <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50" class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50" class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50" class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"  class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50" class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"  class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50" class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"  class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"  class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="txtNome" class="rotulo"></label> 
+                                    <input type="text" id="txtnome" name="firstname" placeholder="Nome..." maxlength="50"  class="caixa-texto">
+                                 </div>
+                                 <div class="col-6">
+                                     <label for="txtNome" class="rotulo"></label> 
+                                     <input type="text" id="txtnome" name="firstname" placeholder="Sobrenome..." maxlength="50"   class="caixa-texto">
+                                  </div>      
+                        </fieldset>
+                    </div>
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <legend>Montante</legend>
+                            <div class="row">         
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>
+                                
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>                            
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <legend>Razão</legend>
+                            <div class="row">                              
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                                <div class="col-12">
+                                    <label for="txtmontante" class="rotulo"></label> 
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+               </form>
+               <form action="#">
+                <div class="row">
+                    <div class="col-6 col-s-12" >
+                      <fieldset>
+                        
+                          <div class="row">
+                            <!--Colocar col 4 para dividir em tres colunas já que 100% é 12-->
+                            <div class="col-4">
+                               <h6>Dinheiro não designado:</h6>
+                            </div>
+                          </div>
+                      </fieldset>
+                    </div> 
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-4">
+                                    <input type="text"id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">  
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4"> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>     
+                            </div>
+                        </fieldset>
+                    </div>     
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text"id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>     
+                  </div>
+            </form>
+            <form action="#">
+                <div class="row">
+                    <div class="col-6 col-s-12" >
+                      <fieldset>
+                
+                          <div class="row">
+                            <!--Colocar col 4 para dividir em tres colunas já que 100% é 12-->
+                            <div class="col-4">
+                               <h6>Total para esse Relatório:</h6> 
+                            </div>
+                          </div>
+                      </fieldset>
+                    </div> 
+                    <div class="col-3 col-s-12" >
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-4">
+                                    <input type="text"id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4">  
+                                    <input type="chash" id="txtmontante" name="data" required  class="caixa-texto"
+                                    maxlength="3">
+                                </div>
+                                <div class="col-4"> 
+                                    <input type="text" id="txtmontante" name="data" required  class="caixa-texto" maxlength="2">
+                                </div>     
+                            </div>
+                        </fieldset>
+                    </div>    
+                 </div>         
+            </form> 
+            <fieldset>
+                <legend>Razão</legend>
+                <br>
+                <div>
+                    <h4>CAB - Compartimento abundante </h4>
+                    <h4>CLA - Classe </h4>
+                    <h4>LV - Livraria </h4>
+                    <h4>CONF - Conferência e avanços </h4>
+                </div>
+              
+            </fieldset>
+          
+        </div>
+        <button id="gerarpdf"> Gerar PDF</button>
+            <script>
+        
+                document.querySelector('#gerarpdf').onclick = function(){
+                var element = document.querySelector('#completo');
+                var opt = {
+                
+                margin: [0,0,0,0],
+                filename:     'relatoriocasinha.pdf',
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { scale: 2 },
+                jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+                };
+
+                // New Promise-based usage:
+                html2pdf().set(opt).from(element).save();
+
+                // Old monolithic-style usage:
+                html2pdf(element, opt); 
+                        
+                }
+            
+
+                
+            </script>
+</body>
+</html>
